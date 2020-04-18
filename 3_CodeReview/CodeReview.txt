@@ -1,0 +1,42 @@
+Probleme:
+
+1. Structura proiect
+  - numele pachetelor nu corespunde conventiilor -> ro.ase.csie.cts...
+  - clasa Utils trebuie pusa in alt subpachet -> .utilitare
+  - clasa Program trebuie redenumita -> TestAplicatie si trebuie pusa in alt subpachet -> .test
+  - fisierele trebuie puse intr-un director separat
+
+
+
+2. Fisiere (trebuie sa fie: usor de citit/inteles/lucrat)
+  - trebuie folosit formatul JSON
+  - trebuie folosit acelasi format pentru toate fisierele
+
+
+3. Clase
+  3.1 Angajat
+	- constructorul are prea multi parametrii
+	- totul inclus intr-un singur ecran
+	- constructor default trebuie privat
+	- numele finantare() este vag
+	- 10 trebuie definit ca atrbiut static constant DIURNA_ZI=10
+	- functia finantare() nu se justifica
+	- Concatenarea cu '+' se inlocuieste cu StringBuilder/StringBuffer
+
+  3.2 Aplicant
+	- mixedCamelCase pt denumirile de variabile
+	- vectorii primesc plural -> denumireProiecte
+	- atributele care contorizeaza lungimea de vectori sunt redundante -> nr_proiecte dispare
+	- functia statut trebuie rescrisa si redenumita (fara System.out); intoarce bool	
+	- metode get/set grupate
+
+  3.3 Elev
+	- Observatii Angajat
+
+  3.4 Student
+	- Observatii Angajat
+	- denumirea an_studii -> anStudii
+
+4. Observatii generale
+  - fara System.out in functii => functiile devin dependente de consola
+  - formatare cod in clase(CTRL + ALT + L) 
