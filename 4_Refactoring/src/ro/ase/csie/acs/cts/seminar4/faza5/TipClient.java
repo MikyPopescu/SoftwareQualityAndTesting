@@ -1,5 +1,8 @@
 package ro.ase.csie.acs.cts.seminar4.faza5;
 
+
+import ro.ase.csie.acs.cts.seminar4.faza5.vanzari.Vanzari;
+
 public enum TipClient {
     WOOD(0), BRONZE(Vanzari.DISCOUNT_BRONZE), SILVER(Vanzari.DISCOUNT_SILVER), GOLD(Vanzari.DISCOUNT_GOLD); //referinte constante la niste obiecte
     private float discount;
