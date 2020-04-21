@@ -13,7 +13,7 @@ public class Client {
         this.vanzareAbstracta = vanzareAbstracta;
     }
 
-    public float calculeazaPretFinal(TipClient tipClient, float pretInitial, int aniFidelitate) throws Exception {
+    public float calculeazaPretFinal(TipClient tipClient, float pretInitial, int aniFidelitate) throws ExceptieTipClient {
         float discountFidelitate = vanzareAbstracta.getDiscountFidelitate(aniFidelitate);
 
         switch (tipClient) {
