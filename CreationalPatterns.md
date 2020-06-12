@@ -30,7 +30,7 @@ _-Avantaje:_
  * Usor de implementat
  * **Lazy instantiation** - obiectul este creat atunci cand este nevoie de el
 
-_-Dezavantaje:_
+_-Dezavantaje:_ 
   * Probleme de sincronizare
   * Poate afecta performanta
   
@@ -43,6 +43,50 @@ _-Dezavantaje:_
 
  _-Diagrama UML:_
  
+ ![img](https://github.com/MikyPopescu/SoftwareQualityAndTesting/blob/master/Documentation/UML_Diagrams/2_Builder.png)
+
+_-Componente:_
+
+_-Scenarii:_
+ 
+
+_-Avantaje:_
+
+
+_-Dezavantaje:_
+
+  --- 
+  
+### 3. Factory  :factory:
+ _-Problema:_ 
+  
+ 
+
+ _-Diagrama UML:_
+ 
+  ![img](https://github.com/MikyPopescu/SoftwareQualityAndTesting/blob/master/Documentation/UML_Diagrams/3_1_Simple_Factory.png)
+
+
+_-Componente:_
+
+_-Scenarii:_
+ 
+
+_-Avantaje:_
+
+
+_-Dezavantaje:_
+
+  --- 
+
+### 4. Prototype  :dancers:
+ _-Problema:_ 
+  
+ 
+
+ _-Diagrama UML:_
+ 
+ ![img](https://github.com/MikyPopescu/SoftwareQualityAndTesting/blob/master/Documentation/UML_Diagrams/4_Prototype.png)
 
 
 _-Componente:_
