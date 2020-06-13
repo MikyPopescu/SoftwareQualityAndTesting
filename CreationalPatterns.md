@@ -2,7 +2,9 @@
 
   _-Problema:_ 
   
-  Se doreste **crearea unei singure instante** pentru o clasa prin care sa fie gestionata o resursa intr-un mod **centralizat**
+  Se doreste **crearea unei singure instante** pentru o clasa prin care sa fie gestionata o resursa intr-un mod **centralizat**.
+  
+  [Mai multe explicatii](https://www.youtube.com/watch?v=hUE_j6q0LTQ)
 
  _-Diagrama UML:_
  
