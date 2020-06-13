@@ -41,7 +41,10 @@ _-Dezavantaje:_
 ### 2. Builder  :muscle:
  _-Problema:_ 
   
- 
+   Se doreste **crearea unor obiecte complexe**( = cu multe atribute) printr-un mecanism independent (flexibil) de procesul de realizare al obiectelor. 
+  
+   
+  [Mai multe explicatii](https://www.youtube.com/watch?v=KbIdk5BRn0w)
 
  _-Diagrama UML:_
  
@@ -49,7 +52,10 @@ _-Dezavantaje:_
 
 _-Componente:_
 
+
 _-Scenarii:_
+* Crearea in mod **structurat, incremental** de obiecte complexe
+* Crearea unui produs cu foarte **multe campuri**
  
 
 _-Avantaje:_
