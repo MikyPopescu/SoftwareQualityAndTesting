@@ -92,7 +92,7 @@ _-Dezavantaje:_
 ### 4. Prototype  :dancers:
  _-Problema:_ 
   
- 
+ Crearea obiectelor este costisitoare, ia mult timp
 
  _-Diagrama UML:_
  
@@ -102,10 +102,11 @@ _-Dezavantaje:_
 _-Componente:_
 
 _-Scenarii:_
- 
+ * ACME Inc. dorește să dezvolte un joc 3D pentru dispozitive Android utilizând un enginepropriu. Cele 2 modele 3D pentru **caractere sunt destul de complexe și generarea lor are impact asupra timpului de procesare și implicit asupra duratei de viață a acumulatorului**. Același model este utilizat de mai multe ori pentru a popula o scena cu personaje. Trebuie găsită o soluție eficientă prin care scenele să fie încărcate rapid.
 
 _-Avantaje:_
-
+* Crearea rapida de obiecte prin clonare
 
 _-Dezavantaje:_
+* Atentie la obiecte care partajeaza aceleasi resurse (deep copy)
  
