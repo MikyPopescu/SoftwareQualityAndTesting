@@ -17,10 +17,9 @@ public class TestDecorator {
         System.out.println("\n---------------------\n");
 
         //cu decoratorul primeste un scut
-        superman.getDescriere();
         DecoratorCaracterCuScut supermanCuScut = new DecoratorCaracterCuScut(superman,"scut de lemn");
-        superman.esteAtacat(200);
-        superman.getDescriere();
+        supermanCuScut.esteAtacat(200);
+        supermanCuScut.getDescriere();
 
         System.out.println("\n---------------------\n");
         //sau
