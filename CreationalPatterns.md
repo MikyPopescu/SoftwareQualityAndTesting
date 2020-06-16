@@ -67,8 +67,9 @@ _-Dezavantaje:_
   
 ### 3. Factory  :factory:
  _-Problema:_ 
+  Se doreste implementarea unui mecanism centralizat prin care **crearea** obiectelor este **transparenta** pentru client 
   
- 
+ ### 3.1 Simple Factory
 
  _-Diagrama UML:_
  
@@ -78,7 +79,8 @@ _-Dezavantaje:_
 _-Componente:_
 
 _-Scenarii:_
- 
+ * Generator de documente 
+ * Generator de caractere intr-un joc (caracter negativ, caracter pozitiv)
 
 _-Avantaje:_
 
